@@ -9,7 +9,6 @@ const benefitsOptions = [
   { value: "Retirement Plan", label: "Retirement Plan" },
   { value: "Work From Home", label: "Work From Home" },
 ];
-
 const BenefitsSelect = ({ control, name }) => {
   return (
     <div className="w-full mb-6">
