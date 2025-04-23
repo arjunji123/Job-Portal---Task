@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     host: "0.0.0.0", // Allow external connections
-    port: 5173, // You can specify the port if needed
+    port: 5173,
+    allowedHosts: ["job-portal-task-4.onrender.com"],
   },
 });
