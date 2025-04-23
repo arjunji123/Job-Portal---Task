@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+background: #ffffff;
+  color-scheme: light dark;
+  color: rgba(12, 12, 12, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.input, .textarea, .select {
+  @apply border border-gray-300 p-2 rounded w-full;
+}
+
+
+/* Add custom styling for the MultiSelect component */
+.control-pane {
+  padding: 20px;
+}
+
+.control-section {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.control-styles {
+  margin-bottom: 20px;
+}
+
+.h4 {
+  font-size: 1.5rem;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
