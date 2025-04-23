@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const jobApi = createApi({
   reducerPath: "jobApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:3001/", // Adjust the base URL if necessary
+    baseUrl: "https://job-portal-task-5.onrender.com/", // Adjust the base URL if necessary
   }),
   endpoints: (builder) => ({
     // Fetch Jobs (Existing)
