@@ -11,10 +11,7 @@ const DraftedJobs = () => {
     // Refetch jobs when page is navigated to or job is updated
     refetch();
   }, [refetch]); // Add necessary dependencies
-  if (isLoading)
-    return (
-      <p className="text-center mt-10 text-lg text-gray-600">Loading jobs...</p>
-    );
+
   if (error)
     return (
       <p className="text-center mt-10 text-red-600 text-lg">
